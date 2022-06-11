@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+   
+}
+/*Container Principal*/
+.container{
+    margin: 0 auto;
+    width: 66%;
+    margin-top: 3em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+   
+}/*Imagens celular*/
+.group-img{
+    display: flex;
+}
+.imgCel{
+    width: 450px;
+    height: 510px;
+}
+.imgCe{
+    width: 450px;
+    height: 500px;
+}
+/*Alinhando as imagens uma acima da outra*/
+.celu-one{
+    position: absolute;
+}
+.celu-two{
+    position: relative;
+    left: 100px;
+    top: 20px;
+}
+/*Secao hearder*/
+.continue-como{
+    display: flex;
+    
+}
+.hearder{
+    margin-top: 1em;
+    background-color: rgb(255, 254, 254);
+    width: 300px;
+    border: 0.01em solid rgba(0, 0, 0, 0.212);
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+.hearder .photo{
+    width: 100px;
+    border-radius: 50%;
+}
+.button{
+    color: white;
+    padding: 0.3em;
+    background-color: rgb(72, 167, 255);
+    text-decoration: none;
+    border-radius: 3px;
+}
+.hearder .Remove {
+    text-decoration: none;
+    color: rgb(0, 110, 255);
+}
+/*links*/
+.links{
+    background-color: rgb(255, 254, 254);
+    margin-top: 0.5em;
+    border: 0.1em solid rgba(0, 0, 0, 0.212);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5em;
+    
+}
+.para{
+    color: rgba(0, 0, 0, 0.664);
+}
+.p-links{
+    padding: 0.5em;
+    text-decoration: none;
+    color: rgb(0, 110, 255);
+}
+
+.button-links{
+    margin-top: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*Button links*/
+.title{
+    margin-bottom: 0.5em;
+}
+.AppButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1em;
+
+}
